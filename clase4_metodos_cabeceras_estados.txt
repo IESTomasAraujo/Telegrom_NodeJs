@@ -1,0 +1,40 @@
+Get-> recoger informacion del servidor
+Post->añadir informacion en el servidor
+Put-> Reemplazar informacion en el servidor
+Patch->Actualizar parte de informacion
+Delete->eliminar informacion del servidor
+options-> pedir informacion sobre los metodos.
+
+--Cabeceras--
+informacion contextual de la peticion-> como lo quiero hacer.
+
+
+Cookies-> compartir informacion entre peticiones.
+
+CORS-> Cross Origin Resource Sharing.
+-> Manejar informacion desde fuera de nuestro servicio.
+
+Accept->Define el contenido que acepta.
+
+Aunteticacion-> Asegurate de que puedes pedir cosas al servidor.
+
+Cache-> Alamcenamiento temporal->gstionar durante cuanto tiempo la respuesta sera la misma.
+
+-- Estados --
+-> son un numero que nos indica que paso con la peticion.
+
+200 : OK
+201: Created
+
+301:Moved permanently
+304:Not modified
+
+errores del cliente
+
+400:Bad Request
+401:Unauthorized
+402:Forbidden
+404:Not Found
+
+Errores de servidor
+500:Internal server error

@@ -1,0 +1,33 @@
+Cuerpo De Peticion-> es la informacion de la peticion
+-> Los datos del usuario que quieres añadir.
+
+¿Que tiene y como viene?
+Content-Type
+Content-Length
+
+Content-Type:text/html
+             text/Css
+             application/javascript
+             image/jpeg
+             application/json
+             application/xml
+
+En la request
+POST->http://api.com/user
+
+En la response
+->En cualquier metodo
+->Un archivo, html ,css,...
+->Datos de un producto
+
+--- Query ---
+->Informacion extra
+
+->se puede utilizar para compartir datos con el frontend
+->el usuario lo vera. No compartir datos sensible aqui.
+
+Estructura 
+-> añadir ? al final de la URL
+->nombre=valor
+->Separarlos con &
+
